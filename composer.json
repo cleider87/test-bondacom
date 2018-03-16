@@ -1,0 +1,15 @@
+{
+    "name": "root/test-bondacom",
+    "description": "API de regiones",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cleider Herrera",
+            "email": "cleider87@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "silex/silex": "^2.2"
+    }
+}
