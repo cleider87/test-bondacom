@@ -1,0 +1,29 @@
+{
+    "name": "test-bondacom",
+    "description": "API de regiones",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cleider Herrera",
+            "email": "cleider87@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "silex/silex": "^2.2",
+        "monolog/monolog": "^1.22",
+        "doctrine/dbal": "^2.5",
+        "symfony/security": "^3.2",
+        "doctrine/common": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "RESTful\\": "../app/",
+            "RESTful\\Business\\": "../app/business/",
+            "RESTful\\Services\\": "../app/services/",
+            "RESTful\\Resources\\": "../app/resources/",
+            "RESTful\\Plugins\\": "../app/plugins/",
+            "RESTful\\Helpers\\": "../app/helpers/"
+        }
+    }
+}
