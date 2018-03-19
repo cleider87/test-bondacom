@@ -1,11 +1,11 @@
 # README #
 # API de localizaciones
 
+```
 NOTA: sólo se le apliqué seguridad a las rutas de /api/ por el método POST
-
 usuario: admin
 clave: foo
-
+```
 ## Programas y librerias necesarias.
 
 * PHP7
